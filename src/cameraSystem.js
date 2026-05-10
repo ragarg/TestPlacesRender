@@ -20,7 +20,7 @@ export default class CameraSystem {
     
     perspectiveCamera = null;
     perspectiveCameraPosition = new THREE.Vector3(0, -40 , 20);
-    flyPerspectiveCameraPosition = new THREE.Vector3(0, 0, 100);
+    flyPerspectiveCameraPosition = new THREE.Vector3(0, 0, 50);
     
     perspectiveOutlinePass = null;
     orthographicOutlinePass = null;
